@@ -113,6 +113,16 @@ div#fire-zone {
     border: #999 dotted 1px;
 }
 
+#fire-text {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    top: 420px;
+    text-align: center;
+    width: 600px;
+}
+
 div#bar {
     background-color: green;
     position: absolute;
@@ -134,6 +144,14 @@ div#bar {
     position: absolute;
     left: 700px;
     top: 20px;
+    border: #105cb6 solid 1px;
+    padding: 3px;
+}
+
+#control {
+    position: absolute;
+    left: 700px;
+    top: 150px;
     border: #105cb6 solid 1px;
     padding: 3px;
 }
