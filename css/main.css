@@ -152,8 +152,12 @@ div#bar {
     position: absolute;
     left: 700px;
     top: 150px;
-    border: #105cb6 solid 1px;
+/*    border: #105cb6 solid 1px;*/
     padding: 3px;
+}
+
+#control button {
+    width: 150px;
 }
 
 #score table {
@@ -170,7 +174,17 @@ div#bar {
     font-weight: bold;
 }
 
-
+#help-text {
+    position: absolute;
+    left: 700px;
+    top: 230px;
+    width: 200px;
+    border: #105cb6 solid 1px;
+    font-size: 12px;
+    padding: 2px;
+    line-height: 18px;
+    display: none;
+}
 
 
 
